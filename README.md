@@ -62,13 +62,27 @@ The environment used the following AWS services and supporting tools:
 - Credential-handling and configuration hygiene
 - Cloud infrastructure documentation
 
-## Documentation
+## Portfolio Documentation
 
 - [`docs/architecture.md`](docs/architecture.md) — service roles and traffic flow
 - [`docs/security.md`](docs/security.md) — security controls and production hardening ideas
-- [`docs/validation.md`](docs/validation.md) — deployment validation checklist
+- [`docs/validation.md`](docs/validation.md) — original deployment validation notes
+- [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) — structured AWS/application troubleshooting workflow
+- [`docs/INTERVIEW_NOTES.md`](docs/INTERVIEW_NOTES.md) — interview-ready project explanation and technical Q&A
+- [`docs/PRODUCTION_IMPROVEMENTS.md`](docs/PRODUCTION_IMPROVEMENTS.md) — private-subnet, IAM, secret-management, HA, and monitoring improvements
+- [`docs/COST_OPTIMIZATION.md`](docs/COST_OPTIMIZATION.md) — EC2, RDS, S3, load-balancer, Elastic Beanstalk, and CloudWatch cost considerations
+- [`docs/FAILURE_SCENARIOS.md`](docs/FAILURE_SCENARIOS.md) — instance, target-health, RDS, TLS, S3, monitoring, and AZ failure analysis
+- [`docs/DEPLOYMENT_CHECKLIST.md`](docs/DEPLOYMENT_CHECKLIST.md) — end-to-end deployment and evidence checklist
 - [`docs/resume-bullets.md`](docs/resume-bullets.md) — concise resume-ready project bullets
 - [`docs/evidence-status.md`](docs/evidence-status.md) — what original evidence has and has not been recovered
+
+## Sanitized Configuration Examples
+
+These files demonstrate safe configuration patterns and are explicitly examples rather than recovered exact production files:
+
+- [`config/.env.example`](config/.env.example) — example environment variables with no real secrets
+- [`config/wordpress-config-example.php`](config/wordpress-config-example.php) — WordPress environment-based database configuration pattern
+- [`config/cloudwatch-monitoring-checklist.md`](config/cloudwatch-monitoring-checklist.md) — monitoring/evidence checklist
 
 ## Related AWS Security Coursework
 
