@@ -68,6 +68,16 @@ The environment used the following AWS services and supporting tools:
 - [`docs/security.md`](docs/security.md) — security controls and production hardening ideas
 - [`docs/validation.md`](docs/validation.md) — deployment validation checklist
 - [`docs/resume-bullets.md`](docs/resume-bullets.md) — concise resume-ready project bullets
+- [`docs/evidence-status.md`](docs/evidence-status.md) — what original evidence has and has not been recovered
+
+## Related AWS Security Coursework
+
+Additional AWS lab material recovered from CYT160 is documented separately so it does not get confused with the WordPress high-availability project:
+
+- [`related-aws-security-labs/dvwa-ec2-monitoring.md`](related-aws-security-labs/dvwa-ec2-monitoring.md) — EC2, CloudWatch, EventBridge, and SNS monitoring lab scope
+- [`related-aws-security-labs/waf-guardduty-dvwa.md`](related-aws-security-labs/waf-guardduty-dvwa.md) — ALB, AWS WAF, and GuardDuty lab scope
+
+These recovered files are lab specifications. They are intentionally labeled as related coursework rather than presented as completed-submission evidence unless implementation screenshots or results are recovered.
 
 ## Project Type
 
